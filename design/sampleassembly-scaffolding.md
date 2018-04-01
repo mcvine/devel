@@ -43,7 +43,35 @@ createSampleAssembly(outdir, sample)
 
 To include sample environment, we should also support `createSampleAssembly(outdir, sample, sample_environment, ...)
 
-## Implementation
+## Shape
+
+Right now we allow xml string in the yaml file for the shape. 
+
+```
+            <rotation>
+                <block width="4.6*cm" height="4.6*cm" thickness="2.3/4*cm"/>
+                <angle>90*deg</angle>
+                <axis beam="0.0" transversal="1.0" vertical="0.0" />
+            </rotation>
+```
+
+It is better to support yaml syntax:
+
+```
+  rotation:
+    body:
+      block:
+        width: 4.6*cm
+        height: 4.6*cm
+        thickness: 2.3/4*cm
+    angle: 90*deg
+    axis:
+      beam: 0
+      transversal: 1.
+      vertial: 0
+```
+
+### Implementation
 
 In `instrument`, create a parser to parse yaml file to instrument geometry: `instrument.geometry.yaml.parse`
 
