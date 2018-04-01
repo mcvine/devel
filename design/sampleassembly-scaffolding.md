@@ -48,6 +48,12 @@ createSampleAssembly(outdir, sample)
 
 To include sample environment, we should also support `createSampleAssembly(outdir, sample, sample_environment, ...)
 
+## Sample yaml schema
+
+* orientation: optional. only for single crystal samples
+* excitations: optional. only for inelastic samples
+
+
 ## Shape
 
 Right now we allow xml string in the yaml file for the shape. 
