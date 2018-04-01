@@ -59,11 +59,10 @@ It is better to support yaml syntax:
 
 ```
   rotation:
-    body:
-      block:
-        width: 4.6*cm
-        height: 4.6*cm
-        thickness: 2.3/4*cm
+    block:
+      width: 4.6*cm
+      height: 4.6*cm
+      thickness: 2.3/4*cm
     angle: 90*deg
     axis:
       beam: 0
