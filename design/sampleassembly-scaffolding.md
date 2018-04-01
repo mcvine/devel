@@ -19,12 +19,17 @@ excitation:
 orientation:
  u: 1, 0, 0
  v: 0, 1, 0
-shape: |
-            <rotation>
-                <block width="4.6*cm" height="4.6*cm" thickness="2.3/4*cm"/>
-                <angle>90*deg</angle>
-                <axis beam="0.0" transversal="1.0" vertical="0.0" />
-            </rotation>
+shape: 
+  rotation:
+    block:
+      width: 4.6*cm
+      height: 4.6*cm
+      thickness: 2.3/4*cm
+    angle: 90*deg
+    axis:
+      beam: 0
+      transversal: 1.
+      vertial: 0 
 temperature: 300*K
 ```
 
@@ -37,7 +42,7 @@ sample = loadSampleYml(yaml_path)
 Then a sample assembly can be created from the sample
 
 ```
-from mcvine.workflow.singlextal.scaffolding import createSampleAssembly
+from mcvine.workflow.sampleassembly.scaffolding import createSampleAssembly
 createSampleAssembly(outdir, sample)
 ```
 
