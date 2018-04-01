@@ -41,7 +41,7 @@ createSampleAssembly(outdir, sample)
 
 To include sample environment, we should also support `createSampleAssembly(outdir, sample, sample_environment, ...)
 
-## TODO
+## Implementation
 
-In `instrument`, create a parser to parse yaml file to instrument geometry.
+In `instrument`, create a parser to parse yaml file to instrument geometry: `instrument.geometry.yaml.parse`
 
