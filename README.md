@@ -6,6 +6,12 @@
 
 ## Repositories
 
+Core
+* core: https://github.com/mcvine/mcvine
 * instrument: https://github.com/danse-inelastic/instrument
 * sample assembly: https://github.com/danse-inelastic/sampleassembly
 
+Extensions
+* instruments: https://github.com/mcvine/instruments
+* workflow: https://github.com/mcvine/workflow
+* phonon: https://github.com/mcvine/phonon
