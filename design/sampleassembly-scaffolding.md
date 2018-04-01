@@ -20,9 +20,11 @@ orientation:
  u: 1, 0, 0
  v: 0, 1, 0
 shape: |
-       <rotation angles="90.*deg,0*deg,0*deg">
-         <block width="4.6*cm" height="4.6*cm" thickness="2.3/4*cm"/>
-       </rotation>
+            <rotation>
+                <block width="4.6*cm" height="4.6*cm" thickness="2.3/4*cm"/>
+                <angle>90*deg</angle>
+                <axis beam="0.0" transversal="1.0" vertical="0.0" />
+            </rotation>
 temperature: 300*K
 ```
 
