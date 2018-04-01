@@ -11,7 +11,28 @@ Core
 * instrument: https://github.com/danse-inelastic/instrument
 * sample assembly: https://github.com/danse-inelastic/sampleassembly
 
+Data files
+* resources: https://github.com/mcvine/resources
+
 Extensions
 * instruments: https://github.com/mcvine/instruments
 * workflow: https://github.com/mcvine/workflow
 * phonon: https://github.com/mcvine/phonon
+* CAD: https://github.com/mcvine/SCADgen
+* Resolution calculation for DGS instruments: https://github.com/mcvine/dgsres
+* mantid to mcvine conversion: https://github.com/mcvine/mantid2mcvine
+
+Build
+* conda: https://github.com/mcvine/conda-recipes
+
+Documentation
+* training: https://github.com/mcvine/training
+* mcvine.org: https://github.com/mcvine/mcvine.org
+* mcvine.github.io: https://github.com/mcvine/mcvine.github.io
+
+User interface
+* ui: https://github.com/mcvine/ui
+
+System tests
+* instruments: https://github.com/mcvine/systemtests-instruments
+* sample assemblies: https://github.com/mcvine/systemtests-sample-assemblies
