@@ -1,7 +1,7 @@
 
 The idea is that we start with a relatively simple representation of the sample (and sample environment), which can be serialized using yaml, and build the sample assembly (xml and relevant files).
 
-Here is an example of the yaml file
+Here is an example of the yaml file of a sample
 ```
 name: KVO
 chemical_formula: K2V3O8
@@ -33,6 +33,8 @@ shape:
 temperature: 300*K
 ```
 
+We can have multiple yaml files, one for a sample, one for a sample environment, for example.
+
 The yaml file can be loaded by 
 
 ```from mcvine.workflow.sample import loadSampleYml
@@ -50,14 +52,18 @@ To include sample environment, we should also support `createSampleAssembly(outd
 
 ## Sample yaml schema
 
+Most items are self-explanatory. Here are some that require more explanation:
+
 * orientation: optional. only for single crystal samples
 * excitations: optional. only for inelastic samples
 
 ## scaffolding
 
-* The sample material and geometry part is written to sampleassembly.xml
+* The sample material and geometry part is written into sampleassembly.xml
 * The sections for excitations are written into ...-scatterer.xml. Also written are relevant data files.
 
+### Implementation
+See mcvine/workflow#17, mcvine/workflow#20
 
 ## Shape
 
@@ -88,5 +94,6 @@ It is better to support yaml syntax:
 
 ### Implementation
 
-In `instrument`, create a parser to parse yaml file to instrument geometry: `instrument.geometry.yaml.parse`
+In `instrument`, create a parser to parse yaml file to instrument geometry: `instrument.geometry.yaml.parse`. See danse-inelastic/instrument#6.
+
 
