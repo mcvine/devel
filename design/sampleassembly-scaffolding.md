@@ -63,7 +63,7 @@ Most items are self-explanatory. Here are some that require more explanation:
 * The sections for excitations are written into ...-scatterer.xml. Also written are relevant data files.
 
 ### Implementation
-See mcvine/workflow#17, mcvine/workflow#20
+See https://github.com/mcvine/workflow/issues/17, https://github.com/mcvine/workflow/issues/20
 
 ## Shape
 
@@ -94,6 +94,6 @@ It is better to support yaml syntax:
 
 ### Implementation
 
-In `instrument`, create a parser to parse yaml file to instrument geometry: `instrument.geometry.yaml.parse`. See danse-inelastic/instrument#6.
+In `instrument`, create a parser to parse yaml file to instrument geometry: `instrument.geometry.yaml.parse`. See https://github.com/danse-inelastic/instrument/issues/6.
 
 
