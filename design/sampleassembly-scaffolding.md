@@ -46,12 +46,17 @@ from mcvine.workflow.sampleassembly.scaffolding import createSampleAssembly
 createSampleAssembly(outdir, sample)
 ```
 
-To include sample environment, we should also support `createSampleAssembly(outdir, sample, sample_environment, ...)
+To include sample environment, we should also support `createSampleAssembly(outdir, sample, sample_environment, ...)`
 
 ## Sample yaml schema
 
 * orientation: optional. only for single crystal samples
 * excitations: optional. only for inelastic samples
+
+## scaffolding
+
+* The sample material and geometry part is written to sampleassembly.xml
+* The sections for excitations are written into ...-scatterer.xml. Also written are relevant data files.
 
 
 ## Shape
