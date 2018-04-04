@@ -12,7 +12,8 @@
 
 ## Sample creation
 * name
-* cif path
+* chemical formula
+* a,b,c, alpha, beta, gamma
 * excitation
   * type
   * config
