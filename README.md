@@ -36,3 +36,12 @@ User interface
 System tests
 * instruments: https://github.com/mcvine/systemtests-instruments
 * sample assemblies: https://github.com/mcvine/systemtests-sample-assemblies
+
+DANSE dependencies
+* pyre: https://github.com/danse-inelastic/pyre
+* danse.ins.dsm: https://github.com/danse-inelastic/dsm
+* danse.ins.numpyext: https://github.com/danse-inelastic/numpyext
+* danse.ins.bpext: https://github.com/danse-inelastic/bpext
+* histogram: https://github.com/danse-inelastic/histogram
+* danse.ins.matter: https://github.com/danse-inelastic/matter
+* drchops: https://github.com/danse-inelastic/drchops
