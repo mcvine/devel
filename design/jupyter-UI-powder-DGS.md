@@ -35,4 +35,5 @@ This creates a yaml file
 
 * Interface: https://github.com/mcvine/ui/tree/master/ui/jupyter 
 * Example notebooks: https://github.com/mcvine/training/tree/master/jui
+* yaml schema: https://github.com/mcvine/devel/blob/master/design/sampleassembly-scaffolding.md
 * Kernels: https://github.com/mcvine/workflow/tree/master/workflow/sampleassembly/scaffolding
