@@ -32,4 +32,7 @@ This creates a yaml file
 
 
 ## Implementation
-See https://github.com/mcvine/ui/tree/master/ui/jupyter and https://github.com/mcvine/training/tree/master/jui
+
+* Interface: https://github.com/mcvine/ui/tree/master/ui/jupyter 
+* Example notebooks: https://github.com/mcvine/training/tree/master/jui
+* Kernels: https://github.com/mcvine/workflow/tree/master/workflow/sampleassembly/scaffolding
