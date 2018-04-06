@@ -38,6 +38,7 @@ System tests
 * sample assemblies: https://github.com/mcvine/systemtests-sample-assemblies
 
 DANSE dependencies
+* journal: https://github.com/danse-inelastic/journal
 * pyre: https://github.com/danse-inelastic/pyre
 * danse.ins.dsm: https://github.com/danse-inelastic/dsm
 * danse.ins.numpyext: https://github.com/danse-inelastic/numpyext
