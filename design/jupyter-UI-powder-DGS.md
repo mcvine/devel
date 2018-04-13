@@ -37,3 +37,7 @@ This creates a yaml file
 * Example notebooks: https://github.com/mcvine/training/tree/master/jui
 * yaml schema: https://github.com/mcvine/devel/blob/master/design/sampleassembly-scaffolding.md
 * Kernels: https://github.com/mcvine/workflow/tree/master/workflow/sampleassembly/scaffolding
+
+### Principles
+* More detailed help for forms/parameters etc are wiki pages at https://github.com/mcvine/ui/wiki. They are referred to by help text in the interface. See for example: [DGS beam form help referred here]( https://github.com/mcvine/ui/blob/97ae5b3c5816473346fee32592ae6b860a7df506/ui/jupyter/beam.py#L41)
+
