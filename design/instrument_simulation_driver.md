@@ -26,7 +26,7 @@ The pyre.Instrument also provides machinery to
 During simulation, each step in a in-node-loop for each node will run inside a specific directory: `rank{core_id}-step{iteration_id}` (e.g. `rank3-step5`).
 
 After simulation is done, a component can write out a script in a specific directory to merge the results from all these directories together. For example, all histogram-based monitor component inherits
-[this method](https://github.com/mcvine/mcvine/blob/1807ea3c1ac7bfb4450e6e89b249e8a4304317ef/packages/mcni/python/mcni/components/HistogramBasedMonitorMixin.py#L74).
+[this method](https://github.com/mcvine/mcvine/blob/1807ea3c1ac7bfb4450e6e89b249e8a4304317ef/packages/mcni/python/mcni/components/HistogramBasedMonitorMixin.py#L74). See also: [DetectorSystemFromXml](https://github.com/mcvine/mcvine/blob/62369e564a491dcfd378475084c54b81e022a461/packages/mccomponents/python/mccomponents/pyre_support/components/DetectorSystemFromXml.py#L89), [NeutronToStorage](https://github.com/mcvine/mcvine/blob/42b190cb3f67e8018464f5029dfb69f373cb6649/packages/mcni/python/mcni/pyre_components/NeutronToStorage.py#L63)
 
 
 ## [mcvine.InstrumentBuilder](https://github.com/mcvine/mcvine/blob/62369e564a491dcfd378475084c54b81e022a461/packages/mcvine/python/mcvine/applications/InstrumentBuilder.py)
