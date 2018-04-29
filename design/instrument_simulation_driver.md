@@ -35,7 +35,8 @@ After simulation is done, a component can write out a script in a specific direc
 
 
 ## mcstas components
-McStas components are binded to mcvine infrastructure.
+McStas components are binded into mcvine infrastructure.
 
 * [c++ Component base class for mcstas components](https://github.com/mcvine/mcvine/blob/1807ea3c1ac7bfb4450e6e89b249e8a4304317ef/packages/legacycomponents/mcstas2/lib/Component.h#L24)
-* [boost python binding wrapper](https://github.com/mcvine/mcvine/blob/1807ea3c1ac7bfb4450e6e89b249e8a4304317ef/packages/legacycomponents/mcstas2/mcstas2bpmodule/wrap_mcni_integration_Component.cc#L24). It is used by [mcstas2.wrappers.pymodule.factorymethod_py.factory](https://github.com/mcvine/mcvine/blob/62369e564a491dcfd378475084c54b81e022a461/packages/legacycomponents/mcstas2/python/mcstas2/wrappers/pymodule/factorymethod_py.py#L18)
+* It is wrapped by [boost python binding wrapper](https://github.com/mcvine/mcvine/blob/1807ea3c1ac7bfb4450e6e89b249e8a4304317ef/packages/legacycomponents/mcstas2/mcstas2bpmodule/wrap_mcni_integration_Component.cc#L24) to be a [mcni compatible component](https://github.com/mcvine/mcvine/blob/1807ea3c1ac7bfb4450e6e89b249e8a4304317ef/packages/legacycomponents/mcstas2/lib/mcni_integration/Component.h)
+* The [boost python binding wrapper](https://github.com/mcvine/mcvine/blob/1807ea3c1ac7bfb4450e6e89b249e8a4304317ef/packages/legacycomponents/mcstas2/mcstas2bpmodule/wrap_mcni_integration_Component.cc#L24) is used by [mcstas2.wrappers.pymodule.factorymethod_py](https://github.com/mcvine/mcvine/blob/62369e564a491dcfd378475084c54b81e022a461/packages/legacycomponents/mcstas2/python/mcstas2/wrappers/pymodule/factorymethod_py.py#L17). Therefore, it is used in every python-binding code auto-generated for each component
