@@ -1,8 +1,8 @@
 # "Portal" of mcvine development
 
-| [Core](https://github.com/mcvine/mcvine) | [instruments](https://github.com/mcvine/instruments) | [workflow](https://github.com/mcvine/workflow) | [mantid2mcvine](https://github.com/mcvine/mantid2mcvine) |
+| [Core](https://github.com/mcvine/mcvine) | [mantid2mcvine](https://github.com/mcvine/mantid2mcvine) | [instruments](https://github.com/mcvine/instruments) | [workflow](https://github.com/mcvine/workflow) |
 | :---: | :---: | :---: | :---: |
-[![Build Status](https://travis-ci.org/mcvine/mcvine.svg?branch=master)](https://travis-ci.org/mcvine/mcvine) | [![Build Status](https://travis-ci.org/mcvine/instruments.svg?branch=master)](https://travis-ci.org/mcvine/instruments) | [![Build Status](https://travis-ci.org/mcvine/workflow.svg?branch=master)](https://travis-ci.org/mcvine/workflow) |  [![Build Status](https://travis-ci.com/mcvine/mantid2mcvine.svg?branch=master)](https://travis-ci.com/mcvine/mantid2mcvine) |
+[![Build Status](https://travis-ci.org/mcvine/mcvine.svg?branch=master)](https://travis-ci.org/mcvine/mcvine) | [![Build Status](https://travis-ci.com/mcvine/mantid2mcvine.svg?branch=master)](https://travis-ci.com/mcvine/mantid2mcvine) | [![Build Status](https://travis-ci.org/mcvine/instruments.svg?branch=master)](https://travis-ci.org/mcvine/instruments) | [![Build Status](https://travis-ci.org/mcvine/workflow.svg?branch=master)](https://travis-ci.org/mcvine/workflow) |
 
 | [systemtests-instruments](https://github.com/mcvine/systemtests-instruments) | [systemtests-sample-assemblies](https://github.com/mcvine/systemtests-sample-assemblies) | [dgsres](https://github.com/mcvine/dgsres) | [phonon](https://github.com/mcvine/phonon) |
 | :---: | :---: | :---: | :---: |
