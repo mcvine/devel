@@ -1,4 +1,4 @@
-# "Portal" of mcvine development
+# "Portal" for mcvine development
 
 | [Core](https://github.com/mcvine/mcvine) | [phonon](https://github.com/mcvine/phonon) | [mantid2mcvine](https://github.com/mcvine/mantid2mcvine) | [instruments](https://github.com/mcvine/instruments) | [workflow](https://github.com/mcvine/workflow) |
 | :---: | :---: | :---: | :---: | :---: |
