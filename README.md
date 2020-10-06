@@ -6,7 +6,7 @@
 
 | [systemtests-instruments](https://github.com/mcvine/systemtests-instruments) | [systemtests-sample-assemblies](https://github.com/mcvine/systemtests-sample-assemblies) | [dgsres](https://github.com/mcvine/dgsres) | 
 | :---: | :---: | :---: |
-|  [![Build Status](http://35.168.96.122:8080/buildStatus/icon?job=systemtests-instruments)](http://35.168.96.122:8080/job/systemtests-instruments/) |  [![Build Status](https://travis-ci.org/mcvine/systemtests-sample-assemblies.svg?branch=master)](https://travis-ci.org/mcvine/systemtests-sample-assemblies) | [![Build Status](http://35.168.96.122:8080/buildStatus/icon?job=dgsres)](http://35.168.96.122:8080/job/dgsres/) | 
+|  [![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoieVJqNXhNT2Q5aW1OWmVFS2pJZWtKM2tMN3NiZmJ4bk0zR21UY2pYVTNWNXNKMDdwRXo4YUhqakNwL1Q1NTNXMDZvNXR6TFlKdUd0Z3IxSjFXYTdpcU9RPSIsIml2UGFyYW1ldGVyU3BlYyI6IkZqOFNzeS9zKzVIcXJwQ28iLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)](https://console.aws.amazon.com/codesuite/codebuild/668650830132/projects/mcvine-systemtests-instruments/) |  [![Build Status](https://travis-ci.org/mcvine/systemtests-sample-assemblies.svg?branch=master)](https://travis-ci.org/mcvine/systemtests-sample-assemblies) | [![Build Status](http://35.168.96.122:8080/buildStatus/icon?job=dgsres)](http://35.168.96.122:8080/job/dgsres/) | 
 
 ---
 
