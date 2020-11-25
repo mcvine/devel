@@ -2,7 +2,8 @@
 
 | [Core](https://github.com/mcvine/mcvine) | [phonon](https://github.com/mcvine/phonon) | [mantid2mcvine](https://github.com/mcvine/mantid2mcvine) | [instruments](https://github.com/mcvine/instruments) | [workflow](https://github.com/mcvine/workflow) |
 | :---: | :---: | :---: | :---: | :---: |
-[![Build Status](https://travis-ci.com/mcvine/mcvine.svg?branch=master)](https://travis-ci.com/mcvine/mcvine) |  [![Build Status](https://travis-ci.com/mcvine/phonon.svg?branch=master)](https://travis-ci.com/mcvine/phonon) | [![Build Status](https://travis-ci.com/mcvine/mantid2mcvine.svg?branch=master)](https://travis-ci.com/mcvine/mantid2mcvine) | [![Build Status](https://travis-ci.com/mcvine/instruments.svg?branch=master)](https://travis-ci.com/mcvine/instruments) | [![Build Status](https://travis-ci.com/mcvine/workflow.svg?branch=master)](https://travis-ci.com/mcvine/workflow) |
+| [![Build Status](https://github.com/mcvine/mcvine/workflows/CI/badge.svg)](https://github.com/mcvine/mcvine/actions?query=workflow%3ACI)
+ |  [![Build Status](https://travis-ci.com/mcvine/phonon.svg?branch=master)](https://travis-ci.com/mcvine/phonon) | [![Build Status](https://travis-ci.com/mcvine/mantid2mcvine.svg?branch=master)](https://travis-ci.com/mcvine/mantid2mcvine) | [![Build Status](https://travis-ci.com/mcvine/instruments.svg?branch=master)](https://travis-ci.com/mcvine/instruments) | [![Build Status](https://travis-ci.com/mcvine/workflow.svg?branch=master)](https://travis-ci.com/mcvine/workflow) |
 
 | [systemtests-instruments](https://github.com/mcvine/systemtests-instruments) | [systemtests-sample-assemblies](https://github.com/mcvine/systemtests-sample-assemblies) | [dgsres](https://github.com/mcvine/dgsres) | 
 | :---: | :---: | :---: |
