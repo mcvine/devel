@@ -34,7 +34,7 @@ Build
 Documentation
 * training: https://github.com/mcvine/training
 * mcvine.org: https://github.com/mcvine/mcvine.org
-* mcvine.github.io: https://github.com/mcvine/mcvine.github.io
+* https://mcvine.github.io: https://github.com/mcvine/mcvine.github.io
 
 User interface
 * ui: https://github.com/mcvine/ui
