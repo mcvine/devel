@@ -1,15 +1,5 @@
 # "Portal" for mcvine development
 
-| [Core](https://github.com/mcvine/mcvine) | [phonon](https://github.com/mcvine/phonon) | [mantid2mcvine](https://github.com/mcvine/mantid2mcvine) | [instruments](https://github.com/mcvine/instruments) | [workflow](https://github.com/mcvine/workflow) |
-| :---: | :---: | :---: | :---: | :---: |
-| [![Build Status](https://github.com/mcvine/mcvine/workflows/CI/badge.svg)](https://github.com/mcvine/mcvine/actions?query=workflow%3ACI) |  [![Build Status](https://github.com/mcvine/phonon/workflows/CI/badge.svg)](https://github.com/mcvine/phonon/actions?query=workflow%3ACI) | [![Build Status](https://github.com/mcvine/mantid2mcvine/workflows/CI/badge.svg)](https://github.com/mcvine/mantid2mcvine/actions?query=workflow%3ACI) | [![Build Status](https://github.com/mcvine/instruments/workflows/CI/badge.svg)](https://github.com/mcvine/instruments/actions?query=workflow%3ACI) | [![Build Status](https://github.com/mcvine/workflow/workflows/CI/badge.svg)](https://github.com/mcvine/workflow/actions?query=workflow%3ACI) |
-
-| [systemtests-instruments](https://github.com/mcvine/systemtests-instruments) | [systemtests-sample-assemblies](https://github.com/mcvine/systemtests-sample-assemblies) | [dgsres](https://github.com/mcvine/dgsres) | 
-| :---: | :---: | :---: |
-|  [![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiR3pIMHBZTk1HTjF2R3JRUUpxSzlqTFBQenJ5NEg3NElMRlVLdEIzUDZ4U1F5YjFQN3NSZGsrUjNmRXdjeW4vMjM3cHNPaTV6ZXhhRCtpOGVNQmF2QWxnPSIsIml2UGFyYW1ldGVyU3BlYyI6IlpvRVEwUE4ydytQZk94UksiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)](https://console.aws.amazon.com/codesuite/codebuild/668650830132/projects/mcvine-systemtests-instruments-py3/) |  [![Build Status](https://github.com/mcvine/systemtests-sample-assemblies/workflows/CI/badge.svg)](https://github.com/mcvine/systemtests-sample-assemblies/actions?query=workflow%3ACI) | [![CI](https://github.com/mcvine/dgsres/actions/workflows/CI.yml/badge.svg)](https://github.com/mcvine/dgsres/actions/workflows/CI.yml) | 
-
----
-
 ## Repositories
 
 Core
@@ -52,3 +42,13 @@ DANSE dependencies
 * histogram: https://github.com/danse-inelastic/histogram
 * danse.ins.matter: https://github.com/danse-inelastic/matter
 * drchops: https://github.com/danse-inelastic/drchops
+
+# CI status
+| [Core](https://github.com/mcvine/mcvine) | [phonon](https://github.com/mcvine/phonon) | [mantid2mcvine](https://github.com/mcvine/mantid2mcvine) | [instruments](https://github.com/mcvine/instruments) | [workflow](https://github.com/mcvine/workflow) |
+| :---: | :---: | :---: | :---: | :---: |
+| [![Build Status](https://github.com/mcvine/mcvine/workflows/CI/badge.svg)](https://github.com/mcvine/mcvine/actions?query=workflow%3ACI) |  [![Build Status](https://github.com/mcvine/phonon/workflows/CI/badge.svg)](https://github.com/mcvine/phonon/actions?query=workflow%3ACI) | [![Build Status](https://github.com/mcvine/mantid2mcvine/workflows/CI/badge.svg)](https://github.com/mcvine/mantid2mcvine/actions?query=workflow%3ACI) | [![Build Status](https://github.com/mcvine/instruments/workflows/CI/badge.svg)](https://github.com/mcvine/instruments/actions?query=workflow%3ACI) | [![Build Status](https://github.com/mcvine/workflow/workflows/CI/badge.svg)](https://github.com/mcvine/workflow/actions?query=workflow%3ACI) |
+
+| [systemtests-instruments](https://github.com/mcvine/systemtests-instruments) | [systemtests-sample-assemblies](https://github.com/mcvine/systemtests-sample-assemblies) | [dgsres](https://github.com/mcvine/dgsres) | 
+| :---: | :---: | :---: |
+|  [![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiR3pIMHBZTk1HTjF2R3JRUUpxSzlqTFBQenJ5NEg3NElMRlVLdEIzUDZ4U1F5YjFQN3NSZGsrUjNmRXdjeW4vMjM3cHNPaTV6ZXhhRCtpOGVNQmF2QWxnPSIsIml2UGFyYW1ldGVyU3BlYyI6IlpvRVEwUE4ydytQZk94UksiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)](https://console.aws.amazon.com/codesuite/codebuild/668650830132/projects/mcvine-systemtests-instruments-py3/) |  [![Build Status](https://github.com/mcvine/systemtests-sample-assemblies/workflows/CI/badge.svg)](https://github.com/mcvine/systemtests-sample-assemblies/actions?query=workflow%3ACI) | [![CI](https://github.com/mcvine/dgsres/actions/workflows/CI.yml/badge.svg)](https://github.com/mcvine/dgsres/actions/workflows/CI.yml) | 
+
