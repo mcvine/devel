@@ -6,6 +6,7 @@ Core
 * core: https://github.com/mcvine/mcvine
 * instrument: https://github.com/danse-inelastic/instrument
 * sample assembly: https://github.com/danse-inelastic/sampleassembly
+* accelerated engine: https://github.com/mcvine.acc
 
 Data files
 * resources: https://github.com/mcvine/resources
